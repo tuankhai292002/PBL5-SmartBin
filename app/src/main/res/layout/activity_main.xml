@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="6"
+
+    android:background="#C8BBEF"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="-80dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/bar_dephanhuy"
+            style="@style/progress_bar_by_me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/tv_dephanhuy"
+
+            android:text="x%" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/vegetable">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="Dễ phân hủy" />
+        </LinearLayout>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="-80dp"
+
+        >
+        <ProgressBar
+            android:id="@+id/bar_khophanhuy"
+            style="@style/progress_bar_by_me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:progress="60" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textColor="#0E0E0E"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_khophanhuy"
+            android:fontFamily="sans-serif-medium"
+            android:text="x%" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/bottle">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="Khó phân hủy" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="-80dp"
+
+        >
+        <ProgressBar
+            android:id="@+id/bar_nguyhiem"
+            style="@style/progress_bar_by_me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:progress="60" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#0E0E0E"
+            android:id="@+id/tv_nguyhiem"
+            android:fontFamily="sans-serif-medium"
+            android:text="x%" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/vaccine">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="Nguy hiểm" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

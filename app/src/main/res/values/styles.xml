@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="progress_bar_by_me">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+
+</resources>

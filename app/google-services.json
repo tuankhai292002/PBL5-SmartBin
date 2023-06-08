@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837255051216",
+    "firebase_url": "https://itf-dut-pbl5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "itf-dut-pbl5",
+    "storage_bucket": "itf-dut-pbl5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837255051216:android:e0c3b4671a82fc9a9febd5",
+        "android_client_info": {
+          "package_name": "com.example.pbl5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837255051216-6mpfkf4t1hjvnr53bm88ibvnij12bj9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD_aDYcgPCPbVdvHz85lwl3wfllFVfs5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837255051216-6mpfkf4t1hjvnr53bm88ibvnij12bj9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
